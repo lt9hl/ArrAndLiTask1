@@ -16,6 +16,7 @@ fun main() {
         repeat(2) { lenHei.add(readln().toInt()) }
         arr = Array(lenHei[0], { Array(lenHei[1], { 0 }) })
         lenHei.clear()
+        println("Введите трехзначные числа")
         for (i in 0..<arr.size)
             for (j in 0..<arr[0].size) {
                 var read = readln().toDouble()
